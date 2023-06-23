@@ -1,7 +1,7 @@
 /* En este archivo escriban su CSS */
 
 /* Fonts */
-/* Importar aquí la font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 
 
 
@@ -14,9 +14,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 18px;
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
+
 
 /* Para quitar los puntos a los items de listas */
 ul {
@@ -35,6 +37,10 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
+}
+
+footer{
+    background-color: #aa2a8a;
 }
 
 /* Recomendaciones! 
