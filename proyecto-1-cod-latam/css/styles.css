@@ -1,7 +1,7 @@
 /* En este archivo escriban su CSS */
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@200&display=swap');
 
 
 
@@ -14,16 +14,46 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #fbfbfb;
+}
 
-/* Para quitar los puntos a los items de listas */
-ul {
+header{
+    background-color: #af599e;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img{
+    height: 70px;
+    width: auto;
+   
+}
+
+.gatito{
+    width: 400px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/*items de lista*/
+header .nav-link{
     list-style: none;
 }
+
+header .nav-link li{
+    display:inline-block ;
+    padding: 0 20px;
+} 
 
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
@@ -40,7 +70,15 @@ main {
 }
 
 footer{
-    background-color: #aa2a8a;
+    background-color: #af599e;
+    height: 90px;
+    display: flex;
+    text-align:  center;
+    padding-top: 40px;
+}
+
+.letra-footer{
+    color: #fbfbfb;
 }
 
 /* Recomendaciones! 
